@@ -1,18 +1,24 @@
 body{
-
+    background-color: whitesmoke;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .header{
     width: 100%;
     display: flex;
+    background-color: white;
+    height: 55px;
 }
 #search{
     width: 500px;
     height: 15px;
     margin: 15px auto;
 }
+.searchBar{
+    margin: 0 12%;
+}
 .videos{
     display: flex;
+
 }
 .texts{
     display: flex;
@@ -30,4 +36,23 @@ body{
 .text4{
     background-color: slateblue;
     color: white;
+}
+.dropdownMenu1{
+ background-image: url(/img/Hamburger_icon.svg.png);
+}
+#main-logo{
+    background-image: url(../img/png-transparent-youtube-logo-youtube-red-logo-sunny-leone-angle-rectangle-brand.png);
+}
+.cardBlock{
+  display: flex;
+}
+.cards{
+    margin: 0 auto;
+    text-align: center;
+    margin: 10px;
+}
+.cards img{
+    max-width: 100%;
+    max-height: 100%;
+    
 }
